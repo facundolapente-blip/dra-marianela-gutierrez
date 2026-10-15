@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dra. Marianela Gutiérrez | Gastroenterología con mirada integral</title>
+  <meta name="description" content="Gastroenteróloga y terapeuta. Atención personalizada con gastroenterología, homeopatía, terapia floral y apiterapia en Montevideo, Rosario y San José. Sacá hora y confirmá por WhatsApp.">
+  <!-- DEMO: quitar esta línea cuando la doctora apruebe la web, para que Google la indexe -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#3D4330">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dra. Marianela Gutiérrez | Gastroenteróloga y terapeuta">
+  <meta property="og:description" content="Tu salud no se puede reducir a un síntoma. Consultas en Montevideo, Rosario y San José.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%233D4330'/%3E%3Cg fill='none' stroke='%23D8AE5E' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M13 30c4-6 8-12 15-19'/%3E%3Cpath d='M18 23c-4 0-6-2-6-6 4 0 6 2 6 6ZM22 18c0-4 2-6 6-6 0 4-2 6-6 6ZM23 18c3 1 5 3 5 7-3-1-5-3-5-7Z'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400..700&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#turno">Ir directo a sacar hora</a>
+
+  <!-- Barra de datos rápidos (escritorio) -->
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Consultas en <span data-cfg="sedesTexto"></span></span></span>
+      <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span data-cfg="horarioCorto"></span></span>
+      <a data-href="tel"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg><span data-cfg="telefono"></span></a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12"/><path class="stem" d="M13 30c4-6 8-12 15-19"/><path class="leaf" d="M18 23c-4 0-6-2-6-6 4 0 6 2 6 6ZM22 18c0-4 2-6 6-6 0 4-2 6-6 6ZM23 18c3 1 5 3 5 7-3-1-5-3-5-7Z"/></svg>
+        <span class="brand-text">
+          <strong data-cfg="medico"></strong>
+          <small data-cfg="especialidad"></small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#medico">Quién soy</a>
+        <a href="#consulta">Tu consulta</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#ubicacion">Consultorios</a>
+      </nav>
+      <div class="header-ctas">
+        <a class="btn btn-wa-ghost hide-sm" data-href="wa" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>WhatsApp
+        </a>
+        <a class="btn btn-primary" href="#turno" data-book>Sacar hora</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO: el calendario está acá mismo -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="hero-doc">
+            <img data-img="avatar" alt="" width="56" height="56">
+            <span><strong>Te atiende la <span data-cfg="medico"></span></strong><em data-cfg="especialidad"></em></span>
+          </div>
+          <h1>Tu salud no se puede reducir a un síntoma.</h1>
+          <p class="lead">Gastroenterología con una <mark>mirada integral</mark>: tu historia, tus hábitos y tus emociones también cuentan. Por eso cada consulta es personalizada y sin apuro.</p>
+          <ul class="checks">
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Consultas en <span data-cfg="sedesTexto"></span></span></li>
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Gastroenterología, homeopatía, terapia floral y apiterapia</li>
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Elegís día y horario, y confirmás por WhatsApp</li>
+          </ul>
+          <div class="hero-alt">
+            <span>¿Preferís hablar con alguien?</span>
+            <a class="btn btn-wa-ghost" data-href="wa" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Escribir por WhatsApp</a>
+            <a class="hero-tel" data-href="tel"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>Llamar al <span data-cfg="telefono"></span></a>
+          </div>
+        </div>
+
+        <!-- Widget de reserva -->
+        <div class="booking" id="turno" aria-labelledby="booking-title">
+          <div class="booking-form" id="bookingForm">
+            <div class="booking-head">
+              <h2 id="booking-title">Sacá hora</h2>
+              <p>Confirmación por WhatsApp</p>
+            </div>
+
+            <div class="step">
+              <h3 class="step-title"><span class="num">1</span>¿En qué consultorio?</h3>
+              <div class="chips chips-sedes" id="sedes" role="radiogroup" aria-label="Consultorio"></div>
+            </div>
+
+            <div class="step">
+              <div class="step-row">
+                <h3 class="step-title"><span class="num">2</span>Elegí el día</h3>
+                <div class="cal-head">
+                  <button type="button" class="cal-nav" id="calPrev" aria-label="Mes anterior"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+                  <strong id="calMonth" aria-live="polite"></strong>
+                  <button type="button" class="cal-nav" id="calNext" aria-label="Mes siguiente"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+                </div>
+              </div>
+              <div class="cal">
+                <div class="cal-week" aria-hidden="true"><span>Lu</span><span>Ma</span><span>Mi</span><span>Ju</span><span>Vi</span><span>Sá</span><span>Do</span></div>
+                <div class="cal-grid" id="calGrid"></div>
+              </div>
+            </div>
+
+            <div class="step" id="stepHora">
+              <h3 class="step-title"><span class="num">3</span>Elegí el horario <span class="step-sub" id="diaElegido"></span></h3>
+              <div id="slots" class="slots"></div>
+            </div>
+
+            <div class="step">
+              <label class="step-title" for="nombre"><span class="num">4</span>Tu nombre y apellido</label>
+              <input class="input" id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej.: María Pérez" required>
+              <p class="field-error" id="nombreError" role="alert"></p>
+            </div>
+
+            <p class="summary" id="summary" aria-live="polite"></p>
+            <button type="button" class="btn btn-confirm" id="confirmBtn">Elegí un horario</button>
+          </div>
+
+          <div class="booking-done" id="bookingDone" hidden tabindex="-1">
+            <div class="done-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <h2>¡Pedido listo!</h2>
+            <p id="doneText"></p>
+            <p>Enviá el mensaje en WhatsApp y te respondemos con la confirmación del turno.</p>
+            <a class="btn btn-wa btn-block" id="doneWa" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>¿No se abrió? Abrir WhatsApp
+            </a>
+            <button type="button" class="btn btn-ghost btn-block" id="otroTurno">Sacar otro turno</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <div class="section-head split">
+          <h2>Un enfoque integral para tu salud digestiva</h2>
+          <p>Qué tratamiento seguir se define en la consulta. Vos solo elegí consultorio, día y horario.</p>
+        </div>
+        <ul class="services" id="services"></ul>
+        <div class="services-more">
+          <h3>Motivos frecuentes de consulta</h3>
+          <ul class="conditions" id="conditions"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASES DE MARCA -->
+    <section class="manifesto" aria-label="Lo que guía cada consulta">
+      <div class="wrap manifesto-inner">
+        <p>Tu historia importa.</p>
+        <p>Tu cuerpo también te habla.</p>
+        <p>Tu salud se construye todos los días.</p>
+      </div>
+    </section>
+
+    <!-- QUIÉN SOY -->
+    <section class="section" id="medico">
+      <div class="wrap doctor">
+        <figure class="doctor-photo">
+          <div class="doctor-frame">
+            <img data-img="retrato" alt="Retrato de la Dra. Marianela Gutiérrez" width="1280" height="1920">
+          </div>
+          <figcaption class="doctor-badge">
+            <svg class="sico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m9 14.2-1.5 7.3L12 19l4.5 2.5-1.5-7.3"/><path d="m9.6 9 1.6 1.6 3.2-3.2"/></svg>
+            <span><strong data-cfg="credencial"></strong><small data-cfg="credencialSub"></small></span>
+          </figcaption>
+        </figure>
+        <div class="doctor-copy">
+          <h2 data-cfg="medico"></h2>
+          <p class="doctor-role" data-cfg="especialidad"></p>
+          <blockquote class="doctor-quote"><p data-cfg="cita"></p></blockquote>
+          <p class="doctor-bio" data-cfg="bio"></p>
+          <dl class="facts" id="facts"></dl>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#turno" data-book><span>Sacar hora con <span data-cfg="medicoCorto"></span></span></a>
+            <a class="btn btn-wa" data-href="wa" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Hacer una consulta</a>
+          </div>
+          <p class="socials">Seguí sus consejos de salud en
+            <a data-href="ig" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+            <a data-href="fb" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V7.5a.5.5 0 0 1 .5-.5H15Z"/></svg>Facebook</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO ES TU CONSULTA (secuencia real) -->
+    <section class="section" id="consulta">
+      <div class="wrap">
+        <div class="process-panel">
+          <div class="process-head">
+            <h2>Cómo es tu consulta, paso a paso</h2>
+            <p>Sin vueltas: sabés qué pasa en cada momento.</p>
+            <a class="btn btn-primary btn-lg" href="#turno" data-book>Sacar hora</a>
+          </div>
+          <ol class="process">
+            <li><span class="pnum" aria-hidden="true">1</span><span class="pwhen">Hoy, en un minuto</span><h3>Reservás tu turno</h3><p>Elegís consultorio, día y horario, y lo enviás por WhatsApp.</p></li>
+            <li><span class="pnum" aria-hidden="true">2</span><span class="pwhen">Antes del turno</span><h3>Te confirmamos</h3><p>Te respondemos con la confirmación, la dirección del consultorio y qué traer.</p></li>
+            <li><span class="pnum" aria-hidden="true">3</span><span class="pwhen">El día del turno</span><h3>Una consulta sin apuro</h3><p>Hablamos de tus síntomas, pero también de tu historia, tus hábitos y cómo te sentís.</p></li>
+            <li><span class="pnum" aria-hidden="true">4</span><span class="pwhen">Después</span><h3>Un plan a tu medida</h3><p>Armamos un plan de tratamiento a tu medida y lo vamos ajustando en cada control.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS -->
+    <section class="section" id="preguntas">
+      <div class="wrap faq-grid">
+        <div class="section-head">
+          <h2>Preguntas frecuentes</h2>
+          <p>Si tu duda no está acá, escribinos y te respondemos.</p>
+          <a class="btn btn-wa" data-href="wa" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Preguntar por WhatsApp</a>
+          <figure class="faq-photo">
+            <img data-img="consultorio" alt="La Dra. Marianela Gutiérrez" width="1280" height="1920" loading="lazy">
+          </figure>
+        </div>
+        <div class="faq" id="faq"></div>
+      </div>
+    </section>
+
+    <!-- OPINIONES -->
+    <section class="section" id="opiniones">
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.6l2.85 5.9 6.45.82-4.72 4.48 1.2 6.4L12 17.08l-5.78 3.12 1.2-6.4L2.7 9.32l6.45-.82z"/></symbol></svg>
+      <div class="wrap reviews-layout">
+        <div class="reviews-summary">
+          <h2>Lo que dicen sus pacientes</h2>
+          <div class="rating">
+            <span class="rating-num">+3.000</span>
+            <p>personas siguen sus consejos de salud en Instagram y Facebook<br><span>Testimonios ilustrativos para la demo</span></p>
+          </div>
+        </div>
+        <div class="reviews">
+          <figure class="review review-feature">
+            <svg class="stars" viewBox="0 0 124 24" role="img" aria-label="5 de 5 estrellas"><use href="#i-star" width="24" height="24"/><use href="#i-star" width="24" height="24" x="25"/><use href="#i-star" width="24" height="24" x="50"/><use href="#i-star" width="24" height="24" x="75"/><use href="#i-star" width="24" height="24" x="100"/></svg>
+            <blockquote><p>Por primera vez sentí que alguien miraba mi historia completa y no solo el síntoma. Salí de la consulta con un plan claro y mucha tranquilidad.</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">GM</span><span><strong>Graciela M.</strong><small>Gastroenterología</small></span></figcaption>
+          </figure>
+          <figure class="review">
+            <svg class="stars" viewBox="0 0 124 24" role="img" aria-label="5 de 5 estrellas"><use href="#i-star" width="24" height="24"/><use href="#i-star" width="24" height="24" x="25"/><use href="#i-star" width="24" height="24" x="50"/><use href="#i-star" width="24" height="24" x="75"/><use href="#i-star" width="24" height="24" x="100"/></svg>
+            <blockquote><p>“La doctora se toma el tiempo de escuchar. Me explicó todo con mucha paciencia y combinamos el tratamiento con homeopatía.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">LR</span><span><strong>Laura R.</strong><small>Homeopatía</small></span></figcaption>
+          </figure>
+          <figure class="review">
+            <svg class="stars" viewBox="0 0 124 24" role="img" aria-label="5 de 5 estrellas"><use href="#i-star" width="24" height="24"/><use href="#i-star" width="24" height="24" x="25"/><use href="#i-star" width="24" height="24" x="50"/><use href="#i-star" width="24" height="24" x="75"/><use href="#i-star" width="24" height="24" x="100"/></svg>
+            <blockquote><p>“Me atiendo en San José y saco hora desde el celular en un minuto. Clara, humana y muy dedicada.”</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">AS</span><span><strong>Ana S.</strong><small>Terapia floral</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTORIOS -->
+    <section class="section" id="ubicacion">
+      <div class="wrap location">
+        <div class="location-copy">
+          <h2>Consultorios</h2>
+          <p class="location-lead">Atiende en forma presencial en tres ciudades. Elegí la más cómoda para vos: la dirección exacta te la confirmamos por WhatsApp junto con tu turno.</p>
+          <div class="sede-list" id="sedeList" role="tablist" aria-label="Consultorios"></div>
+          <ul class="info-list">
+            <li><span class="info-ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span><span><small>Teléfono y WhatsApp</small><a data-href="tel"><span data-cfg="telefono"></span></a></span></li>
+            <li><span class="info-ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><span><small>Atención</small><span data-cfg="horarioCorto"></span></span></li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#turno" data-book>Sacar hora</a>
+          </div>
+        </div>
+        <div class="map">
+          <iframe id="mapFrame" title="Mapa del consultorio elegido" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-card">
+            <span class="map-pin" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><small>Consultorio</small><strong id="mapSede"></strong></div>
+            <a class="btn btn-ghost" id="mapLink" target="_blank" rel="noopener">Cómo llegar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta">
+      <div class="wrap final-inner">
+        <div class="final-copy">
+          <h2>Tu cuerpo también te habla. Escuchalo.</h2>
+          <p>Sacá hora para una consulta personalizada en <span data-cfg="sedesTexto"></span>.</p>
+        </div>
+        <div class="final-actions">
+          <a class="btn btn-primary btn-lg" href="#turno" data-book>Sacar hora online</a>
+          <a class="btn btn-wa-dark btn-lg" data-href="wa" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Escribir por WhatsApp</a>
+          <p class="final-phone">O llamá al <a data-href="tel"><span data-cfg="telefono"></span></a></p>
+        </div>
+      </div>
+      <svg class="final-mark" viewBox="10 9 20 23" aria-hidden="true"><path d="M13 30c4-6 8-12 15-19"/><path d="M18 23c-4 0-6-2-6-6 4 0 6 2 6 6ZM22 18c0-4 2-6 6-6 0 4-2 6-6 6ZM23 18c3 1 5 3 5 7-3-1-5-3-5-7Z"/></svg>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio" aria-label="Inicio">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12"/><path class="stem" d="M13 30c4-6 8-12 15-19"/><path class="leaf" d="M18 23c-4 0-6-2-6-6 4 0 6 2 6 6ZM22 18c0-4 2-6 6-6 0 4-2 6-6 6ZM23 18c3 1 5 3 5 7-3-1-5-3-5-7Z"/></svg>
+          <span class="brand-text"><strong data-cfg="medico"></strong><small data-cfg="especialidad"></small></span>
+        </a>
+        <p>Atención personalizada. Gastroenterología, homeopatía, terapia floral y apiterapia.</p>
+      </div>
+      <nav class="footer-col" aria-label="Secciones del sitio">
+        <p class="footer-h">Secciones</p>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#medico">Quién soy</a></li>
+          <li><a href="#consulta">Tu consulta</a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+          <li><a href="#ubicacion">Consultorios</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-h">Contacto</p>
+        <ul>
+          <li><a data-href="tel"><span data-cfg="telefono"></span></a></li>
+          <li><a data-href="wa" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a data-href="ig" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a data-href="fb" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-h">Consultorios</p>
+        <p data-cfg="sedesTexto"></p>
+        <a class="footer-cta" href="#turno" data-book>Sacar hora online</a>
+      </div>
+    </div>
+    <div class="wrap footer-legal">
+      <p>© <span id="year"></span> <span data-cfg="medico"></span>. Todos los derechos reservados.</p>
+      <p>La información de este sitio es orientativa y no reemplaza la consulta médica.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante (escritorio) -->
+  <a class="wa-float" data-href="wa" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+    <span class="wa-float-text"><small>¿Dudas? Escribinos</small>WhatsApp</span>
+  </a>
+
+  <!-- Barra fija inferior (móvil) -->
+  <div class="mobile-bar" id="mobileBar">
+    <a class="btn btn-primary" href="#turno" data-book>
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Sacar hora
+    </a>
+    <a class="btn btn-wa" data-href="wa" target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>WhatsApp
+    </a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
